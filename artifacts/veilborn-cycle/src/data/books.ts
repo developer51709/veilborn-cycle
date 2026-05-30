@@ -21,7 +21,7 @@ export const books: Book[] = [
     title: "Shadows Remember",
     subtitle: "The Veilborn Cycle — Book One",
     theme: "Identity",
-    coverImage: "/covers/book1-shadows-remember.png",
+    coverImage: `${import.meta.env.BASE_URL}covers/book1-shadows-remember.png`,
     description:
       "On the night of his eighteenth birthday, Cael Rowan discovers he is the last of the Umbra — a forbidden bloodline of dark-magic wielders that the ruling Council of Lumen has spent centuries trying to erase. As shadow magic surges uncontrollably through his veins and agents close in, Cael is thrust into a hidden magical world of ancient lies, erased memories, and a legacy that refuses to stay buried.",
     chapters: [
@@ -393,7 +393,7 @@ Cael Rowan followed.`,
     title: "The Forbidden Line",
     subtitle: "The Veilborn Cycle — Book Two",
     theme: "Legacy",
-    coverImage: "/covers/book2-forbidden-line.png",
+    coverImage: `${import.meta.env.BASE_URL}covers/book2-forbidden-line.png`,
     description:
       "Training with the scattered survivors of the Umbra, Cael digs deeper into the forbidden history of his bloodline — and begins to understand the scale of the Council's memory-lock conspiracy. As his bond with the tech-mage Aren Vale deepens into something neither of them entirely planned, and rival prodigy Riven Kaelus shadows his every move, Cael edges closer to a truth that could unravel the Veiled's entire social order.",
     chapters: [
@@ -653,7 +653,7 @@ The forbidden line had been drawn across their history like a scar. He was going
     title: "The Broken Council",
     subtitle: "The Veilborn Cycle — Book Three",
     theme: "Rebellion",
-    coverImage: "/covers/book3-broken-council.png",
+    coverImage: `${import.meta.env.BASE_URL}covers/book3-broken-council.png`,
     description:
       "Cael escalates from survivor to saboteur, striking at the Council's infrastructure in a series of high-risk operations that destabilize the Veil itself. As public opinion fractures and the magical world grapples with the emerging truth about Umbra history, the Council plays its most dangerous hand — a re-lock spell that nearly ends everything Cael has become.",
     chapters: [
@@ -947,7 +947,7 @@ Still his.`,
     title: "Veilfall",
     subtitle: "The Veilborn Cycle — Book Four",
     theme: "War",
-    coverImage: "/covers/book4-veilfall.png",
+    coverImage: `${import.meta.env.BASE_URL}covers/book4-veilfall.png`,
     description:
       "The secret war becomes an open one. When the Council's suppression is publicly documented and the Veil destabilizes beyond deniability, the magical world fractures into factions. Cael must navigate open conflict, the devastating loss of someone who stood between him and ruin, and the truth about the first Umbra — an ancestor whose choices echo across three centuries — before making his strike on the Council's stronghold.",
     chapters: [
@@ -1157,7 +1157,7 @@ He could work with that.`,
     title: "The Last Umbra",
     subtitle: "The Veilborn Cycle — Book Five",
     theme: "Power",
-    coverImage: "/covers/book5-last-umbra.png",
+    coverImage: `${import.meta.env.BASE_URL}covers/book5-last-umbra.png`,
     description:
       "The final confrontation. Cael faces the Council's leader and the full force of an institution that has spent three centuries protecting its grip on magical society. The Veil's fate, the freedom of every locked family, and the future of the magical world all balance on the choices Cael Rowan makes in the last chambers of the Lumen Citadel — where the most devastating truth is still waiting to be found.",
     chapters: [

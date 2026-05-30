@@ -117,7 +117,7 @@ export default function Home() {
                     </button>
                   </Link>
                   <a
-                    href={`/pdfs/book${book.id}-${book.slug}.pdf`}
+                    href={`${import.meta.env.BASE_URL}pdfs/book${book.id}-${book.slug}.pdf`}
                     download
                     data-testid={`link-download-${book.id}`}
                     className="flex items-center justify-center bg-muted/50 hover:bg-muted border border-border text-muted-foreground rounded-lg p-1.5 transition-all"

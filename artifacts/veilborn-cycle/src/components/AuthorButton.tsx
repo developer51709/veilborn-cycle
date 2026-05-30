@@ -26,7 +26,7 @@ export default function AuthorButton() {
           <div className="flex items-start justify-between mb-4">
             <div className="flex items-center gap-3">
               <img
-                src="/author-nyxen.png"
+                src={`${import.meta.env.BASE_URL}author-nyxen.png`}
                 alt="Nyxen"
                 className="w-12 h-12 rounded-full object-cover border-2 border-primary/40"
               />
@@ -100,7 +100,7 @@ export default function AuthorButton() {
         title="About the Author"
       >
         <img
-          src="/author-nyxen.png"
+          src={`${import.meta.env.BASE_URL}author-nyxen.png`}
           alt="Nyxen"
           className="w-5 h-5 rounded-full object-cover border border-white/30"
         />

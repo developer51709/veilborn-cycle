@@ -140,7 +140,7 @@ export default function BookReader() {
           </button>
 
           <a
-            href={`/pdfs/book${book.id}-${book.slug}.pdf`}
+            href={`${import.meta.env.BASE_URL}pdfs/book${book.id}-${book.slug}.pdf`}
             download
             data-testid="button-download-pdf"
             className="p-1.5 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-all"
