@@ -1,11 +1,12 @@
-import { Switch, Route, Router as WouterRouter } from "wouter";
+import { Switch, Route, Router } from "wouter";
+import { useHashLocation } from "wouter/use-hash-location";
 import { Toaster } from "@/components/ui/toaster";
 import Home from "@/pages/Home";
 import BookReader from "@/pages/BookReader";
 import NotFound from "@/pages/not-found";
 import AuthorButton from "@/components/AuthorButton";
 
-function Router() {
+function AppRoutes() {
   return (
     <Switch>
       <Route path="/" component={Home} />
@@ -17,11 +18,11 @@ function Router() {
 
 function App() {
   return (
-    <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
-      <Router />
+    <Router hook={useHashLocation}>
+      <AppRoutes />
       <AuthorButton />
       <Toaster />
-    </WouterRouter>
+    </Router>
   );
 }
 

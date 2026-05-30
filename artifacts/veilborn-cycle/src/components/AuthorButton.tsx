@@ -55,7 +55,7 @@ export default function AuthorButton() {
 
           <div className="flex flex-col gap-2">
             <a
-              href="https://discord.com/users/nyxenwastaken"
+              href="https://discord.com/users/1495618222488162439"
               target="_blank"
               rel="noopener noreferrer"
               data-testid="link-discord"
