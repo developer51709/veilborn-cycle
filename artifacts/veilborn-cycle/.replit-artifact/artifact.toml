@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "The Veilborn Cycle"
+version = "1.0.0"
+id = "artifacts/veilborn-cycle"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24833
+
+[services.development]
+run = "pnpm --filter @workspace/veilborn-cycle run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/veilborn-cycle", "run", "build" ]
+publicDir = "artifacts/veilborn-cycle/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24833"
+BASE_PATH = "/"

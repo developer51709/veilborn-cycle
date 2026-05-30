@@ -1,0 +1,38 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "hohe__i6L9OsFRQTPWTnk"
+uri = "file://artifacts/veilborn-cycle/public/covers/book1-shadows-remember.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "099hO8vvFNt_jHL0hPRd5"
+uri = "file://artifacts/veilborn-cycle/public/covers/book2-forbidden-line.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "tq5BdLyOJ6lKuKBNXM2Rp"
+uri = "file://artifacts/veilborn-cycle/public/covers/book3-broken-council.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "wK1YKwQybZA5aZNGoKHKY"
+uri = "file://artifacts/veilborn-cycle/public/covers/book4-veilfall.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "NW6jMbEg1jvM9m4hSWBF2"
+uri = "file://artifacts/veilborn-cycle/public/covers/book5-last-umbra.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "NWU6WIq8X-wfwqdzv7Ln6"
+uri = "file://artifacts/veilborn-cycle/public/author-nyxen.png"
+type = "image"
+title = "generated_image"
