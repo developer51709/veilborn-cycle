@@ -49,8 +49,8 @@ export default function AuthorButton() {
           </div>
 
           <p className="text-sm text-muted-foreground leading-relaxed mb-5">
-            Fantasy author crafting stories of shadow magic, forbidden legacies,
-            and the worlds hidden just beyond the veil.
+            Full-stack developer and fantasy author crafting stories of shadow magic,
+            forbidden legacies, and the worlds hidden just beyond the veil.
           </p>
 
           <div className="flex flex-col gap-2">
